@@ -1,7 +1,7 @@
 # Arduino IR Sensor Object Detection Alarm
 <div align="center">
   <a href="https://github.com/ROSHAN-Z89/IOT/Object-Detection">
-    <img src="Diagram.png" alt="Circuit Diagram">
+    <img src="assets/Diagram.png" alt="Circuit Diagram">
   </a>
 </div>
 
