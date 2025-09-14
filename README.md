@@ -1,10 +1,11 @@
+# Arduino IR Sensor Object Detection Alarm
 <div align="center">
-  <a href="https://github.com/ROSHAN-Z89/arduino-ir-sensor-buzzer">
-    <img src="assets/irsensor-circuit.png" alt="Circuit Diagram">
+  <a href="https://github.com/ROSHAN-Z89/IOT/Object-Detection">
+    <img src="Diagram.png" alt="Circuit Diagram">
   </a>
 </div>
 
-# Arduino IR Sensor Object Detection Alarm
+
 
 This is an Arduino project that uses an **IR sensor** and a **buzzer** to detect objects.  
 When an object is detected by the IR sensor, the Arduino activates the buzzer to produce an alarm sound.  
@@ -46,12 +47,12 @@ This project demonstrates:
 |-------------|-------------|
 | IR Sensor VCC | 5V |
 | IR Sensor GND | GND |
-| IR Sensor OUT | D7 |
+| IR Sensor OUT | D3 |
 | Buzzer (+) | D2 |
 | Buzzer (–) | GND |
 
 ### Steps
-1. Assemble the circuit as shown in the diagram (`assets/irsensor-circuit.png`).  
+1. Assemble the circuit as shown in the diagram (`Diagram.png`).  
 2. Upload the provided `main.ino` file to your Arduino UNO.  
 3. Open Serial Monitor (9600 baud) to view logs.  
 4. Place an object in front of the IR sensor → the buzzer will sound.  
